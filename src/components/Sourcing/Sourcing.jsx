@@ -5,15 +5,15 @@ import sourceImg2 from "../../assets/sourcingImg2.svg";
 
 const Sourcing = () => {
   return (
-    <div className=" mt-3 box-border py-12 px-12 ">
-      <div className="flex flex-col lg:flex-row justify-evenly bg-darkLight rounded-t-[20px]">
-        <div className="w-[1700px]">
-          <p className="text-[70px] w-[450px] font-Manrope leading-[80px]">
+    <div className=" px-[15px] box-border py-3">
+      <div className=" px-[25px] xl:px-[40px] py-[40px] flex flex-col flex-1 xl:flex-row justify-evenly bg-darkLight rounded-t-[20px] gap-x-20">
+        <div className="w-full">
+          <p className="text-[37px] sm:text-[40px] lg:text-[58px] xl:text-[72px] w-full md:w-full lg:w-[580px] xl:w-full font-Manrope leading-[45px] sm:leading-[50px] lg:leading-[70px]  xl:leading-[80px] ">
             Sourcing Style Worldwide for Your Fashion Delight
           </p>
         </div>
-        <div className="w-full bg-darkLight pt-12 flex flex-col justify-end">
-          <p className="text-[20px] w-[420px] font-Manrope">
+        <div className="w-full bg-darkLight mt-1 sm:pt-5 pt-6 flex flex-col justify-end">
+          <p className="text-[20px] md:w-[360px]  lg:w-[420px] font-Manrope">
             From every chic corner of the globe to your doorstep, our commitment
             to a boundless global fashion experience knows no borders.
           </p>
@@ -27,11 +27,11 @@ const Sourcing = () => {
           </div>
         </div>
       </div>
-      <div className=" bg-darkLight mt-12 flex rounded-b-[20px]">
-        <div>
+      <div className=" bg-darkLight flex rounded-b-[20px]">
+        <div className="px-[25px] pb-[40px]">
           <img src={sourceImg1} alt="" />
         </div>
-        <div className=" hidden lg:flex pl-12 pt-[80px]">
+        <div className=" hidden xl:flex pl-12 pt-[80px]">
           <img src={sourceImg2} alt="" />
         </div>
       </div>

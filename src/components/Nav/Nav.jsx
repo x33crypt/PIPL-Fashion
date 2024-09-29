@@ -23,10 +23,10 @@ const Nav = () => {
   return (
     <div
       id="navbar"
-      className="flex z-10 bg-white justify-between px-[30px] lg:px-[50px] py-8 items-center border-t-[8px] lg:border-t-8 border-lightpurple fixed left-0 right-0 transition-transform duration-300 ease-in-out"
+      className="flex z-10 bg-white justify-between px-[25px] lg:px-[50px] py-8 items-center border-t-[8px] lg:border-t-8 border-lightpurple fixed left-0 right-0 transition-transform duration-300 ease-in-out"
     >
       <div>
-        <img className="w-[130px]" src={logo} alt="" />
+        <img className="w-[110px]" src={logo} alt="" />
       </div>
       <div className="hidden xl:flex w-[650px] justify-between text-[16px] text-black font-Manrope ">
         <div className="relative group cursor-pointer">
@@ -56,7 +56,7 @@ const Nav = () => {
         </button>
       </div>
       <div className="flex xl:hidden ">
-        <p className="font-Manrope text-[20px]">Menu</p>
+        <p className="font-Manrope text-[15px]">Menu</p>
       </div>
     </div>
   );
