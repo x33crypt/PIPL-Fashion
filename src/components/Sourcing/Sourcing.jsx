@@ -18,8 +18,8 @@ const Sourcing = () => {
             to a boundless global fashion experience knows no borders.
           </p>
           <div className="w-full">
-            <button className="mt-8 flex items-center bg-black pl-7 pr-2 py-2 rounded-full">
-              <p className="text-white mr-7 font-Manrope text-base font-medium">
+            <button className="mt-8 flex items-center bg-black pl-7 pr-2 py-2 rounded-full relative overflow-hidden transition-all duration-500 ease-in-out group hover:bg-lightpurple">
+              <p className="mr-7 font-Manrope text-base font-medium text-white transition-colors duration-500 ease-in-out group-hover:text-black">
                 Our Service
               </p>
               <i className="fa-solid fa-arrow-right text-black bg-lightpurple py-3 px-3 rounded-full"></i>

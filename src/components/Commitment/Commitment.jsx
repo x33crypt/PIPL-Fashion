@@ -30,18 +30,25 @@ const Commitment = () => {
   }, []);
 
   return (
-    <div className="px-[25px] lg:px-[50px] mt-40 xl:mt-[170px] xl:flex xl:flex-col xl:gap-x-[100px]">
+    <div
+      id="commitment"
+      className="px-[25px] lg:px-[50px] mmt-[80px] pt-[30px] xl:mt-[100px] xl:pt-[140px] xl:flex xl:flex-col xl:gap-x-[100px]"
+    >
       <div>
         <p className="text-[40px] sm:text-[40px] lg:text-[58px] xl:text-[72px] w-full md:w-full lg:w-[550px] xl:w-[480px] font-Manrope leading-[45px] sm:leading-[50px] lg:leading-[70px] xl:leading-[80px] ">
           Commitment to Eco-Excellence
         </p>
       </div>
-      <div className="mt-10 flex flex-col lg:grid lg:grid-cols-2 xl:grid-cols-4 lg:gap-x-[10px] gap-y-[50px]">
+      <div className="mt-10 flex flex-col lg:grid lg:grid-cols-2 xl:flex xl:flex-row lg:gap-x-[10px] gap-y-[50px] w-full">
         <div className="">
-          <img
-            className="rounded-[15px] h-[370px] lg:h-[400px] xl:h-[430px] w-full xl:w-[300px] object-cover"
-            src={commitImg1}
-          />
+          <div className="h-[370px] lg:h-[400px] xl:h-[430px]  xl:flex-1 overflow-hidden rounded-[15px] bg-blue-300">
+            <img
+              className="object-cover h-full w-full transition-transform duration-1500 ease-in-out"
+              src={commitImg1}
+              id="zoomImage"
+              style={{ transform: `scale(${scale})` }}
+            />
+          </div>
           <div className="pr-[20px]">
             <p className="mt-6 font-Manrope text-[20px] font-semibold">
               Eco-Friendly Presentations
@@ -51,7 +58,61 @@ const Commitment = () => {
             </p>
           </div>
         </div>
-        <div>
+        <div className="">
+          <div className="h-[370px] lg:h-[400px] xl:h-[430px] xl:flex-1 overflow-hidden rounded-[15px] bg-blue-300">
+            <img
+              className="object-cover h-full w-full transition-transform duration-1500 ease-in-out"
+              src={commitImg2}
+              id="zoomImage"
+              style={{ transform: `scale(${scale})` }}
+            />
+          </div>
+          <div className="pr-[20px]">
+            <p className="mt-6 font-Manrope text-[20px] font-semibold">
+              Eco-Friendly Presentations
+            </p>
+            <p className="mt-3 font-Manrope text-neutral-500 text-[20px] leading-[27px]">
+              3D-rendered presentations and eco-friendly laser treatment.
+            </p>
+          </div>
+        </div>
+        <div className="">
+          <div className="h-[370px] lg:h-[400px] xl:h-[430px] xl:flex-1 overflow-hidden rounded-[15px] bg-blue-300">
+            <img
+              className="object-cover h-full w-full transition-transform duration-1500 ease-in-out"
+              src={commitImg3}
+              id="zoomImage"
+              style={{ transform: `scale(${scale})` }}
+            />
+          </div>
+          <div className="pr-[20px]">
+            <p className="mt-6 font-Manrope text-[20px] font-semibold">
+              Eco-Friendly Presentations
+            </p>
+            <p className="mt-3 font-Manrope text-neutral-500 text-[20px] leading-[27px]">
+              3D-rendered presentations and eco-friendly laser treatment.
+            </p>
+          </div>
+        </div>
+        <div className="">
+          <div className="h-[370px] lg:h-[400px] xl:h-[430px] xl:flex-1 overflow-hidden rounded-[15px] bg-blue-300">
+            <img
+              className="object-cover h-full w-full transition-transform duration-1500 ease-in-out"
+              src={commitImg4}
+              id="zoomImage"
+              style={{ transform: `scale(${scale})` }}
+            />
+          </div>
+          <div className="pr-[20px]">
+            <p className="mt-6 font-Manrope text-[20px] font-semibold">
+              Eco-Friendly Presentations
+            </p>
+            <p className="mt-3 font-Manrope text-neutral-500 text-[20px] leading-[27px]">
+              3D-rendered presentations and eco-friendly laser treatment.
+            </p>
+          </div>
+        </div>
+        {/* <div>
           <img
             className="rounded-[15px] h-[370px] lg:h-[400px] xl:h-[430px] w-full xl:w-[300px] object-cover"
             src={commitImg2}
@@ -95,7 +156,7 @@ const Commitment = () => {
               Sea plastic buttons and chemical-free dyeing.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

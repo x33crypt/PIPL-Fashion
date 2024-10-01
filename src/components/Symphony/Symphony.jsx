@@ -1,9 +1,15 @@
 import React from "react";
 import commitImg1 from "../../assets/CommitmentImg1.webp";
+import synImg1 from "../../assets/synImg1.jpg";
+import synImg2 from "../../assets/synImg5.jpg";
+import synImg3 from "../../assets/synImg6.jpg";
 
 const Symphony = () => {
   return (
-    <div className="mt-40 xl:mt-[170px] px-[15px] box-border py-3">
+    <div
+      id="symphony"
+      className="mt-[80px] pt-[30px] xl:mt-[100px] xl:pt-[140px] px-[15px] box-border py-3"
+    >
       <div className=" px-[25px] lg:px-[50px] py-[50px] flex flex-col flex-1 xl:flex-row justify-evenly bg-darkLight rounded-t-[20px] gap-x-20">
         <div className="w-full">
           <p className="text-[37px] sm:text-[40px] lg:text-[58px] xl:text-[72px] w-full md:w-full lg:w-[580px] xl:w-full font-Manrope leading-[45px] sm:leading-[50px] lg:leading-[70px]  xl:leading-[80px] ">
@@ -16,8 +22,8 @@ const Symphony = () => {
             creating a symphony of unparalleled quality and innovation.
           </p>
           <div className="w-full">
-            <button className="mt-8 flex items-center bg-black pl-7 pr-2 py-2 rounded-full">
-              <p className="text-white mr-7 font-Manrope text-base font-medium">
+            <button className="mt-8 flex items-center bg-black pl-7 pr-2 py-2 rounded-full relative overflow-hidden transition-all duration-500 ease-in-out group hover:bg-lightpurple">
+              <p className="mr-7 font-Manrope text-base font-medium text-white transition-colors duration-500 ease-in-out group-hover:text-black">
                 Contact Us
               </p>
               <i className="fa-solid fa-arrow-right text-black bg-lightpurple py-3 px-3 rounded-full"></i>
@@ -30,7 +36,7 @@ const Symphony = () => {
           <div>
             <img
               className="rounded-[15px] h-[360px] lg:h-[440px] xl:h-[230px] object-cover w-full xl:w-[1400px]"
-              src={commitImg1}
+              src={synImg1}
               alt=""
             />
           </div>
@@ -55,7 +61,7 @@ const Symphony = () => {
           <div>
             <img
               className="rounded-[15px] h-[360px] lg:h-[440px] xl:h-[230px] object-cover w-full xl:w-[1400px]"
-              src={commitImg1}
+              src={synImg3}
               alt=""
             />
           </div>
@@ -80,7 +86,7 @@ const Symphony = () => {
           <div>
             <img
               className="rounded-[15px] h-[360px] lg:h-[440px] xl:h-[230px] object-cover w-full xl:w-[1400px]"
-              src={commitImg1}
+              src={synImg2}
               alt=""
             />
           </div>

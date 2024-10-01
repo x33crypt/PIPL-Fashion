@@ -27,7 +27,7 @@ const Empowered = () => {
   }, []);
 
   return (
-    <div className="px-[25px] lg:px-[50px] mt-40 xl:mt-[170px] xl:flex items-start xl:gap-x-[100px]">
+    <div className="px-[25px] lg:px-[50px] mt-32 xl:mt-[170px] xl:flex items-start xl:gap-x-[100px]">
       <div className="hidden xl:flex mt-14 xl:mt-0 h-[600px] lg:h-[550px] xl:h-[850px] w-full overflow-hidden rounded-[20px]">
         <img
           className="object-cover h-full w-full transition-transform duration-1500 ease-in-out ;"
@@ -41,7 +41,7 @@ const Empowered = () => {
           Empowered Minds, Positive Vibration
         </p>
         <div className=" mt-[20px] pb-[5px] relative group max-w-max cursor-pointer">
-          <p className="mb-2 font-Manrope font-semibold text-[15px]">
+          <p className="mb-1 font-Manrope font-semibold text-[15px]">
             Contact Us
           </p>
           <span className="absolute bottom-0 left-0 w-full h-[1px] bg-black transition-all duration-500 group-hover:w-full"></span>

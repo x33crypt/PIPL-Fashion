@@ -37,7 +37,10 @@ const Shinning = () => {
   }, []);
 
   return (
-    <div className="mt-28 xl:mt-[170px] px-[25px] lg:px-[50px] box-border py-3">
+    <div
+      id="shinning"
+      className="mt-[80px] pt-[30px] xl:mt-[100px] xl:pt-[140px] px-[25px] lg:px-[50px] box-border py-3"
+    >
       <div className="">
         <div className=" xl:flex  w-full justify-between">
           <div className="">
@@ -88,31 +91,31 @@ const Shinning = () => {
         </div>
         <div className="grid grid-cols-2 lg:grid-cols-3 w-full mt-5 xl:mt-0">
           <div className="h-[180px] flex items-center justify-center border-r border-b border-t xl:border-t-0">
-            <img className="w-[70px]" src={shineImg1} alt="" />
+            <img className="w-[70px] xl:w-[70px]" src={shineImg1} alt="" />
           </div>
           <div className="h-[180px] flex items-center justify-center lg:border-r border-b border-t xl:border-t-0">
-            <img className="w-[200px]" src={shineImg2} alt="" />
+            <img className="w-[180px]" src={shineImg2} alt="" />
           </div>
           <div className="h-[180px] flex items-center justify-center border-b border-r lg:border-r-0 lg:border-t xl:border-t-0">
-            <img className="w-[120px]" src={shineImg3} alt="" />
+            <img className="w-[100px] xl:w-[120px]" src={shineImg3} alt="" />
           </div>
           <div className="h-[180px] flex items-center justify-center lg:border-r border-b">
-            <img className="w-[120px]" src={shineImg4} alt="" />
+            <img className="w-[110px] xl:w-[120px]" src={shineImg4} alt="" />
           </div>
           <div className="h-[180px] flex items-center justify-center border-r border-b">
-            <img className="w-[120px]" src={shineImg7} alt="" />
+            <img className="w-[80px] xl:w-[120px]" src={shineImg7} alt="" />
           </div>
           <div className="h-[180px] flex items-center justify-center border-b">
             <img className="w-[120px]" src={shineImg6} alt="" />
           </div>
           <div className="h-[180px] flex items-center justify-center border-r ">
-            <img className="w-[120px]" src={shineImg8} alt="" />
+            <img className="w-[90px] xl:w-[120px]" src={shineImg8} alt="" />
           </div>
           <div className="h-[180px] flex items-center justify-center lg:border-r">
             <img className="w-[120px]" src={shineImg5} alt="" />
           </div>
           <div className="h-[180px] hidden lg:flex items-center justify-center">
-            <img className="w-[120px]" src={shineImg9} alt="" />
+            <img className="w-[90px] xl:w-[120px]" src={shineImg9} alt="" />
           </div>
         </div>
       </div>

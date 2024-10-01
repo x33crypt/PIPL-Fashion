@@ -3,7 +3,10 @@ import providingImg1 from "../../assets/provingImg.jpeg";
 
 const Providing = () => {
   return (
-    <div className="px-[25px] lg:px-[50px] mt-40 xl:mt-[170px]">
+    <div
+      id="providing"
+      className="px-[25px] lg:px-[50px] mt-[80px] pt-[30px] xl:mt-[100px] xl:pt-[140px]"
+    >
       <div className="flex flex-col xl:flex-row xl:gap-x-20 justify-between items-center ">
         <div className="py-6 w-full">
           <p className="text-[40px] sm:text-[40px] lg:text-[58px] xl:text-[72px] w-full md:w-full lg:w-[580px] xl:w-full font-Manrope leading-[45px] sm:leading-[50px] lg:leading-[70px]  xl:leading-[80px]">
