@@ -5,7 +5,7 @@ const Providing = () => {
   return (
     <div
       id="providing"
-      className="px-[25px] lg:px-[50px] mt-[80px] pt-[30px] xl:mt-[90px] xl:pt-[140px]"
+      className="px-[25px] lg:px-[50px] mt-[90px] pt-[30px] xl:mt-[90px] xl:pt-[140px]"
     >
       <div className="flex flex-col xl:flex-row xl:gap-x-20 justify-between items-center ">
         <div className="py-6 w-full">
